@@ -69,6 +69,12 @@ public class Elements {
     @FindBy(xpath = "(//div[@class='t966__menu-item-title t966__typo__menu_474856319 t-name'])[5]")
     public WebElement mastersProgram;
 
+    @FindBy (xpath = "(//*[@class='t228__list_item'])[4]")
+    public WebElement blogsButton;
+
+    @FindBy (xpath = "//*[@class='js-feed t-feed t-feed_col']/ul")
+    public List<WebElement> blogsList;
+
 
 
 }

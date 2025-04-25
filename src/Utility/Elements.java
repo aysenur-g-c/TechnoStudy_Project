@@ -72,7 +72,7 @@ public class Elements {
     @FindBy (xpath = "(//*[@class='t228__list_item'])[4]")
     public WebElement blogsButton;
 
-    @FindBy (xpath = "//*[@class='js-feed t-feed t-feed_col']/ul")
+    @FindBy (xpath = "//*[@class='js-feed t-feed t-feed_col']/ul/li")
     public List<WebElement> blogsList;
 
     @FindBy(xpath = "//*[text()='SIGN IN']")

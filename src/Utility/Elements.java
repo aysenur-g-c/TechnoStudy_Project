@@ -75,6 +75,9 @@ public class Elements {
     @FindBy (xpath = "//*[@class='js-feed t-feed t-feed_col']/ul")
     public List<WebElement> blogsList;
 
+    @FindBy(xpath = "//*[text()='SIGN IN']")
+    public WebElement signInButton;
+
 
 
 }

@@ -29,7 +29,7 @@ public class Elements {
     @FindBy(xpath = "//img[@class='t228__imglogo ']")
     WebElement technostudyBackButton;
 
-    public Elements(WebDriver driver) {
+  /*  public Elements(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
@@ -54,6 +54,6 @@ public class Elements {
 
     public boolean isChooseProgramTextVisible() {
         return chooseProgramText.isDisplayed();
-    }
+    }*/
 }
 

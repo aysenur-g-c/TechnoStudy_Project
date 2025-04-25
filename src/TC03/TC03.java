@@ -1,4 +1,4 @@
-package TC3;
+package TC03;
 
 import Utility.BaseDriverParameter;
 import Utility.ConfigReader;
@@ -12,7 +12,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TC3 extends BaseDriverParameter {
+public class TC03 extends BaseDriverParameter {
 
     @DataProvider(name = "bookingScenarios")
     public Object[][] bookingScenarios() {

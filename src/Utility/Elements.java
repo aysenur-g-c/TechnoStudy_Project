@@ -51,5 +51,24 @@ public class Elements {
     @FindBy(xpath = "//*[@class='t-form__errorbox-item']")
     public List<WebElement> errorMessages;
 
+    @FindBy(xpath = "//a[@class='t-menu__link-item t966__tm-link']")
+    public WebElement programMenu;
+
+    @FindBy(xpath = "//div[text()='Software Development Engineer in Test']")
+    public WebElement sdet;
+
+    @FindBy(xpath = "//div[text()='Data Science Bootcamp']")
+    public WebElement dataScienceBootcamp;
+
+    @FindBy(xpath = "//div[text()='Artificial Intelligence']")
+    public WebElement intelligence;
+
+    @FindBy(xpath = "//div[text()='Android Developer Bootcamp']")
+    public WebElement androidDeveloper;
+
+    @FindBy(xpath = "(//div[@class='t966__menu-item-title t966__typo__menu_474856319 t-name'])[5]")
+    public WebElement mastersProgram;
+
+
 
 }

@@ -54,6 +54,7 @@ public class Elements {
 
     public boolean isChooseProgramTextVisible() {
         return chooseProgramText.isDisplayed();
+
     }*/
 }
 

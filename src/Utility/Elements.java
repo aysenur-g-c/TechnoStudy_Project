@@ -78,6 +78,9 @@ public class Elements {
     @FindBy(xpath = "//*[text()='SIGN IN']")
     public WebElement signInButton;
 
+    @FindBy(xpath = "//a[text()='Terms of Use']")
+    public WebElement termOfUse;
+
 
 
 }

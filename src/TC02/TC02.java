@@ -7,9 +7,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
 public class TC02 extends BaseDriver {
-    @Test(groups = "Smoke,Regression")
 
-    public void US_502() {
+    @Test(groups = "Smoke Test")
+
+    public void TC02() {
         driver.get("https://techno.study/");
 
         Elements elements=new Elements(driver);

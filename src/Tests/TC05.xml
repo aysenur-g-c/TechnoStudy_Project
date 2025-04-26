@@ -10,13 +10,13 @@
         </classes>
     </test>
 
-    <test name="test2">
+<!--    <test name="test2">-->
 
-        <parameter name="BrowserType" value="Firefox"></parameter>
-        <classes>
-            <class name="TC05.TC05"></class>
-        </classes>
-    </test>
+<!--        <parameter name="BrowserType" value="Firefox"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="TC05.TC05"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="test3">
 

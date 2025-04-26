@@ -99,4 +99,19 @@ public class Elements {
     @FindBy(xpath = "//img[@class='t228__imglogo ']")
     public WebElement technostudyBackButton;
 
+    @FindBy(xpath = "//footer//a[contains(@href, 'facebook') or contains(@href, 'instagram') or contains(@href, 'youtube') or contains(@href, 'linkedin')]")
+    public WebElement footer;
+
+    @FindBy(xpath = "//footer//a[contains(@href, 'facebook')]")
+    public WebElement facebook;
+
+    @FindBy(xpath = "//footer//a[contains(@href, 'instagram')]")
+    public WebElement instagram;
+
+    @FindBy(xpath = "//footer//a[contains(@href, 'youtube')]")
+    public WebElement youtube;
+
+    @FindBy(xpath = "//footer//a[contains(@href, 'linkedin')]")
+    public WebElement linkedin;
+
 }

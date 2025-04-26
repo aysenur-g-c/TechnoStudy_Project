@@ -1,6 +1,7 @@
 package TC04;
 
 import Utility.BaseDriver;
+import Utility.BaseDriverParameter;
 import Utility.Elements;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Set;
 
-public class TC04 extends BaseDriver {
+public class TC04 extends BaseDriverParameter {
     @Test(groups = "Regression")
     public void Blog() {
         Elements elements = new Elements(driver);

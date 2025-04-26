@@ -12,6 +12,8 @@ public class TC01 extends BaseDriverParameter {
     @Test (groups = "Smoke Test")
     public void dropDownMenu(){
 
+        driver.get("https://techno.study/");
+
         Elements elements = new Elements(driver);
         elements.programMenu.click();
         MyFunc.Bekle(1);

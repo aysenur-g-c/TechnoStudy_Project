@@ -50,7 +50,7 @@ public class TC03 extends BaseDriverParameter {
         };
     }
 
-    @Test(dataProvider = "bookingScenarios")
+    @Test(dataProvider = "bookingScenarios", groups = "Smoke Test")
     public void testForm(String fullName, String email, String phoneNumber, String country,
                          String course, String aboutUs, String promoCode,
                          boolean terms, boolean success) {

@@ -2,12 +2,12 @@ package TC08;
 
 import Utility.BaseDriverParameter;
 import Utility.Elements;
-import org.junit.Test;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 public class TC08 extends BaseDriverParameter {
 
-    @Test
+    @Test (groups = "Smoke Test")
 
     public void termOfUse(){
 

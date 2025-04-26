@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC01 extends BaseDriverParameter {
-    @Test
+    @Test (groups = "Smoke Test")
     public void dropDownMenu(){
 
         Elements elements = new Elements(driver);

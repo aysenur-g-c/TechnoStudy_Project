@@ -81,6 +81,22 @@ public class Elements {
     @FindBy(xpath = "//a[text()='Terms of Use']")
     public WebElement termOfUse;
 
+    @FindBy(xpath = "//h2[contains(text(),'Choose a program')]")
+    public WebElement chooseProgramText;
 
+    @FindBy(xpath = "(//a[contains(text(),'Learn more')])[2]")
+    public WebElement learnMoreButton1;
+
+    @FindBy(xpath = "(//a[contains(text(),'Learn more')])[3]")
+    public WebElement learnMoreButton2;
+
+    @FindBy(xpath = "(//a[contains(text(),'Learn more')])[1]")
+    public WebElement learnMoreButton3;
+
+    @FindBy(xpath = "//div[@class='t420__logo t-title']")
+    public WebElement technostudyButton;
+
+    @FindBy(xpath = "//img[@class='t228__imglogo ']")
+    public WebElement technostudyBackButton;
 
 }

@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Set;
 
 public class TC04 extends BaseDriverParameter {
-    @Test(groups = "Regression")
+    @Test(groups = "Smoke Test")
     public void Blog() {
         Elements elements = new Elements(driver);
 

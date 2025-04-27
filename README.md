@@ -53,7 +53,7 @@ Sayfa kullanıcılar için uygun şekilde düzenlenmiştir.
 ## **PROJE EKİBİ**  
 [Ayşenur CAN](https://github.com/aysenur-g-c)  
 [Ennur GÖL](https://github.com/ennur7)  
-[Serkan SEWÖESTER](https://github.com/SerkanSeweoster)  
+[Serkan SEWÖESTER](https://github.com/SerkanSewoester)  
 [İbrahim CAN](https://github.com/ibcan9)  
 [Tuğba YILMAZ](https://github.com/MTY-EEE)  
 [Burak DURMAZ](https://github.com/burakboradurmaz)  

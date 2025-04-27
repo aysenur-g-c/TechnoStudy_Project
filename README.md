@@ -1,7 +1,7 @@
 # **Techno Study Website Test Project**
 
 ## **Proje Hakkında**  
-Bu proje, Techno Study web sitesinin temel işlevselliklerini test etmek için oluşturulmuştur. Testler Java, Selenium, TestNG, GitGitHub kullanılarak yazılmıştır.
+Bu proje, Techno Study web sitesinin temel işlevselliklerini test etmek için oluşturulmuştur. Testler Java, Selenium, TestNG, Git-GitHub kullanılarak yazılmıştır.
 
 ## **Çalışma Ortamı**  
 [Techno Study](https://techno.study/)

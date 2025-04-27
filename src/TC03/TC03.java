@@ -1,7 +1,6 @@
 package TC03;
 
 import Utility.BaseDriverParameter;
-import Utility.ConfigReader;
 import Utility.Elements;
 import Utility.MyFunc;
 import org.openqa.selenium.Keys;
@@ -17,9 +16,11 @@ public class TC03 extends BaseDriverParameter {
     @DataProvider(name = "bookingScenarios")
     public Object[][] bookingScenarios() {
         return new Object[][]{
-                {"Test Test", "test@gmail.com", "111 111 1111", "Andorra", "SDET", "Other", "Test", true, true},
-                {"Test Test", "test@gmail.com", "111 111 1111", "Andorra", "SDET", "", "Test", true, true},
-                {"Test Test", "test@gmail.com", "111 111 1111", "Andorra", "SDET", "Other", "", true, true},
+             // {"Test Test", "test@gmail.com", "111 111 1111", "Andorra", "SDET", "Other", "Test", true, true},
+             // {"Test Test", "test@gmail.com", "111 111 1111", "Andorra", "SDET", "", "Test", true, true},
+             // {"Test Test", "test@gmail.com", "111 111 1111", "Andorra", "SDET", "Other", "", true, true},
+
+                // CAPTCHA yüzünden yorum satırına alındı.
 
                 {"", "test@gmail.com", "111 111 1111", "Andorra", "SDET", "Other", "Test", true, false},
                 {"Test Test", "", "111 111 1111", "Andorra", "SDET", "Other", "Test", true, false},
@@ -54,9 +55,8 @@ public class TC03 extends BaseDriverParameter {
     public void testForm(String fullName, String email, String phoneNumber, String country,
                          String course, String aboutUs, String promoCode,
                          boolean terms, boolean success) {
-        String url = ConfigReader.get("baseUrl");
-        driver.get(url);
-        int MyWait=0;
+        driver.get("https://techno.study/");
+        int MyWait = 0;
         Elements elements = new Elements(driver);
         SoftAssert softAssert = new SoftAssert();
 
@@ -93,11 +93,11 @@ public class TC03 extends BaseDriverParameter {
         elements.bookACallButton.click();
 
         if (success) {
-            MyWait=10;
+            MyWait = 10;
             wait.until(ExpectedConditions.visibilityOf(elements.successMessage));
             softAssert.assertTrue(elements.successMessage.isDisplayed());
         } else {
-            MyWait=2;
+            MyWait = 2;
             wait.until(driver -> elements.errorMessages.size() > 0);
             softAssert.assertTrue(elements.errorMessages.size() > 0);
         }

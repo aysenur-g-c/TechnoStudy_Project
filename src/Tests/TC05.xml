@@ -4,7 +4,7 @@
 
     <test name="test1">
 
-        <parameter name="BrowserType" value="Chrome"></parameter>
+        <parameter name="BrowserTipi" value="Chrome"></parameter>
         <classes>
             <class name="TC05.TC05"></class>
         </classes>
@@ -12,7 +12,7 @@
 
     <test name="test2">
 
-        <parameter name="BrowserType" value="Firefox"></parameter>
+        <parameter name="BrowserTipi" value="Firefox"></parameter>
         <classes>
             <class name="TC05.TC05"></class>
         </classes>
@@ -20,7 +20,7 @@
 
     <test name="test3">
 
-        <parameter name="BrowserType" value="Edge"></parameter>
+        <parameter name="BrowserTipi" value="Edge"></parameter>
         <classes>
             <class name="TC05.TC05"></class>
         </classes>

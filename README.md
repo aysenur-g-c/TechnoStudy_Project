@@ -1,13 +1,13 @@
-**#Techno Study Website Test Project**
+**# Techno Study Website Test Project**
 
-**##Proje Hakkında**
+**## Proje Hakkında**  
 Bu proje, Techno Study web sitesinin temel işlevselliklerini test etmek için oluşturulmuştur. Testler Java, Selenium, TestNG, GitGitHub kullanılarak yazılmıştır.
 
-**##Çalışma Ortamı**
-https://techno.study/
+**##Çalışma Ortamı**  
+(https://techno.study/)
 
 **##Proje Detayı**
-*###Test Case 1: Dropdown Menu*
+*###Test Case 1: Dropdown Menu*  
 Anasayfadaki "Programs" başlığı altında bir dropdown menü görüntülenir.
 Dropdown menü tıklandığında tüm kursların listesi açılır.
 Kurs adları görünür.
@@ -52,11 +52,11 @@ Sayfa kullanıcılar için uygun şekilde düzenlenmiştir.
 
 **##PROJE EKİBİ**
 @github/[Ayşenur CAN](https://github.com/aysenur-g-c)
-@github/https://github.com/ennur7
-Serkan SEWÖESTER
-İbrahim CAN
-Tuğba YILMAZ
-Burak DURMAZ
-Fazlı EYÜPOĞLU
-Hakan MERT
-Murat ÖKSÜZ
+@github/[Ennur GÖL](https://github.com/ennur7)
+@github/[Serkan SEWÖESTER](https://github.com/SerkanSeweoster)
+@github/[İbrahim CAN](https://github.com/ibcan9)
+@github/[Tuğba YILMAZ](https://github.com/MTY-EEE)
+@github/[Burak DURMAZ](https://github.com/burakboradurmaz)
+@github/[Fazlı EYÜPOĞLU](https://github.com/FazliEYP)
+@github/[Hakan MERT](https://github.com/ROCK4EVA)
+@github/[Murat ÖKSÜZ](https://github.com/muratoksuz)

@@ -48,8 +48,8 @@ Kurs detay sayfasında Techno Study logosu yer alır.
 >### *Test Case 8: Terms Of Use*  
 >>>"Apply Now" formunda "Terms of Use" seçeneği bulunur.
 "Terms of Use" linkine tıklanınca şartlar sayfası açılır olmalıdır.
-Sayfa kullanıcılar için uygun şekilde düzenlenmiş olmalıdır.
->>>*Gerçekleşen*: "Terms of Use" sayfası eksik bir öğe nedeniyle başarısız oldu.
+Sayfa kullanıcılar için uygun şekilde düzenlenmiş olmalıdır.  
+>>> *Gerçekleşen* : "Terms of Use" sayfası eksik bir öğe nedeniyle başarısız oldu.
 Bir hata raporu oluşturuldu ve test çalışması şu anda gözden geçiriliyor ve bir sonraki sprint'te güncellenecek.
 
 ## **PROJE EKİBİ**  

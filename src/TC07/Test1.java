@@ -1,6 +1,7 @@
 package TC07;
 
 import Utility.BaseDriver;
+import Utility.BaseDriverParameter;
 import Utility.Elements;
 import Utility.MyFunc;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Test1 extends BaseDriver {
+public class Test1 extends BaseDriverParameter {
 
     @Test (groups = "Smoke Test")
     public void Test01(){

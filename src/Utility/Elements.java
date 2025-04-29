@@ -21,9 +21,6 @@ public class Elements {
     @FindBy(xpath = "//*[@placeholder='Email']")
     public WebElement emailInputField;
 
-    @FindBy(xpath = "//*[@class='t-input-phonemask__select-flag']")
-    public WebElement phoneFlagSelect;
-
     @FindBy(xpath = "//*[@class='t-input t-input-phonemask']")
     public WebElement phoneNumberInputField;
 

@@ -1,6 +1,7 @@
 package TC06;
 
 import Utility.BaseDriver;
+import Utility.BaseDriverParameter;
 import Utility.Elements;
 import Utility.MyFunc;
 import org.openqa.selenium.JavascriptExecutor;
@@ -13,7 +14,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Set;
 
-public class TC06 extends BaseDriver {
+public class TC06 extends BaseDriverParameter {
     @Test(groups = "@Smoke")
     public void US_06() {
         Elements elements = new Elements(driver);

@@ -16,10 +16,10 @@
             <class name="TC08.TC08"></class>
         </classes>
         <groups>
-            <run>
-                <include name="Smoke Test"></include>
-                <include name="Regression"></include>
-            </run>
+<!--            <run>-->
+<!--                <include name="Smoke Test"></include>-->
+<!--                <include name="Regression"></include>-->
+<!--            </run>-->
         </groups>
     </test>
 
@@ -37,10 +37,10 @@
             <class name="TC08.TC08"></class>
         </classes>
         <groups>
-            <run>
-                <include name="Smoke Test"></include>
-                <include name="Regression"></include>
-            </run>
+<!--            <run>-->
+<!--                <include name="Smoke Test"></include>-->
+<!--                <include name="Regression"></include>-->
+<!--            </run>-->
         </groups>
     </test>
 

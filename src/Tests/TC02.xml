@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/TechnoStudy_Project1/src/TC02/TC02.java">
-    <classes><class name="TC02.TC02">
-        <methods><include name="TC02"/>
-        </methods>
-    </class></classes></test></suite>
+
+<suite name="mySuit" parallel="tests" thread-count="2">
+
+    <test name="test1">
+        <parameter name="BrowserTipi" value="chrome"></parameter>
+
+        <classes>
+            <class name="TC02.TC02"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <parameter name="BrowserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="TC02.TC02"></class>
+        </classes>
+    </test>
+
+</suite>

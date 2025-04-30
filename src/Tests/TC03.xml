@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="mySuit">
+<suite name="mySuit" parallel="tests" thread-count="2">
+
     <test name="test1">
+        <parameter name="BrowserTipi" value="chrome"></parameter>
+
         <classes>
             <class name="TC03.TC03"></class>
         </classes>
     </test>
+
+    <test name="test2">
+        <parameter name="BrowserTipi" value="edge"></parameter>
+
+        <classes>
+            <class name="TC03.TC03"></class>
+        </classes>
+    </test>
+
 </suite>

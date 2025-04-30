@@ -8,10 +8,11 @@ import org.openqa.selenium.WebElement;
 public class TechnoStudyPage {
 
     WebDriver driver;
-
-    Elements elements=new Elements(driver);
+    Elements elements;
 
     public TechnoStudyPage(WebDriver driver) {
+        this.driver=driver;
+        elements=new Elements(driver);
     }
 
     public void scrollToElement(WebElement element) {
